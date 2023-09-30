@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Playground</title>
+  <!-- Add Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <h3 class="text-center text-primary">jQuery Playground</h3>
+    
+    <div class="row">
+      <!-- First column with class "col-xs-6" -->
+      <div class="col-xs-6">
+        <h4>#left-well</h4>
+        <div class="well" id="left-well">
+          <button id="target1" class="btn btn-default target">#target1</button>
+          <button id="target2" class="btn btn-default target">#target2</button>
+          <button id="target3" class="btn btn-default target">#target3</button>
+        </div>
+      </div>
+      
+      <!-- Second column with class "col-xs-6" -->
+      <div class="col-xs-6">
+        <h4>#right-well</h4>
+        <div class="well" id="right-well">
+          <button id="target4" class="btn btn-default target">#target4</button>
+          <button id="target5" class="btn btn-default target">#target5</button>
+          <button id="target6" class="btn btn-default target">#target6</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Add jQuery and Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
